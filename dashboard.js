@@ -19,37 +19,13 @@ function handleQueryResponse(response) {
     drawCharts(data);
 }
 
-function chart1.draw(data) {
+function drawCharts(data) {
     var options = {
         title: 'Perbandingan',
         width: 400,
         height: 300
     };
-}
 
-function chart2.draw(data) {
-    var options = {
-        title: 'Peningkatan',
-        width: 400,
-        height: 300
-    };
-}
-
-function chart3.draw(data) {
-    var options = {
-        title: 'Penurunan',
-        width: 400,
-        height: 300
-    };
-}
-
-function chart4.draw(data) {
-    var options = {
-        title: 'Total',
-        width: 400,
-        height: 300
-    };
-}
 
 
     var chart1 = new google.visualization.ColumnChart(document.getElementById('chart1'));
