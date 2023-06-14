@@ -19,7 +19,7 @@ function handleQueryResponse(response) {
     drawCharts(data);
 }
 
-function drawCharts1(data) {
+function chart1.draw(data) {
     var options = {
         title: 'Perbandingan',
         width: 400,
@@ -27,7 +27,7 @@ function drawCharts1(data) {
     };
 }
 
-function drawCharts2(data) {
+function chart2.draw(data) {
     var options = {
         title: 'Peningkatan',
         width: 400,
@@ -35,7 +35,7 @@ function drawCharts2(data) {
     };
 }
 
-function drawCharts3(data) {
+function chart3.draw(data) {
     var options = {
         title: 'Penurunan',
         width: 400,
@@ -43,7 +43,7 @@ function drawCharts3(data) {
     };
 }
 
-function drawCharts4(data) {
+function chart4.draw(data) {
     var options = {
         title: 'Total',
         width: 400,
